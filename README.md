@@ -14,34 +14,6 @@ The system exposes **10 fully functional DynamoDB tools** through the MCP protoc
 ## 🏗️ Architecture
 ![Architecture Diagram]()
 
-
-```
-Claude / Kiro IDE (MCP Client)
-        │  stdio / JSON-RPC
-        ▼
-   proxy.sh / proxy.ps1
-   (holds IAM credentials, signs with SigV4)
-        │  HTTPS + AWS_IAM auth
-        ▼
-API Gateway (HTTP API v2) — dynamodb-api
-        │  routes by method + path
-        ├── GET  /tools                   → Lambda: dynamodb-tools
-        ├── POST /dynamodb/get-item       → Lambda: dynamodb-get-item
-        ├── POST /dynamodb/put-item       → Lambda: dynamodb-put-item
-        ├── POST /dynamodb/update-item    → Lambda: dynamodb-update-item
-        ├── POST /dynamodb/delete-item    → Lambda: dynamodb-delete-item
-        ├── POST /dynamodb/query          → Lambda: dynamodb-query
-        ├── POST /dynamodb/scan           → Lambda: dynamodb-scan
-        ├── POST /dynamodb/batch-get      → Lambda: dynamodb-batch-get
-        ├── POST /dynamodb/list-tables    → Lambda: dynamodb-list-tables
-        ├── POST /dynamodb/describe-table → Lambda: dynamodb-describe-table
-        └── POST /dynamodb/count-items    → Lambda: dynamodb-count-items
-                │
-                ▼
-          AWS DynamoDB
-
----
-
 ## ✅ Features
 
 - **10 DynamoDB Operations**: GetItem, PutItem, UpdateItem, DeleteItem, Query, Scan, BatchGetItem, ListTables, DescribeTable, CountItems
