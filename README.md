@@ -1,4 +1,4 @@
-# AWS Serverless MCP: DynamoDB API
+# AWS-Serverless-Dynamodb-MCP-Server
 
 > **A fully serverless Model Context Protocol (MCP) backend on AWS that enables AI assistants to interact with DynamoDB tables conversationally — built, deployed, and documented by me as a complete end-to-end implementation.**
 
