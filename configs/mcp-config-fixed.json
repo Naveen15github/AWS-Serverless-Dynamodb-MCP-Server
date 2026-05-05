@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "dynamodb": {
+      "command": "bash",
+      "args": ["/c/Users/Naveen/Downloads/Serverless-DynamoDB-MCP/02-proxy/proxy.sh"],
+      "env": {
+        "MCP_ACCESS_KEY_ID": "YOUR_AWS_ACCESS_KEY_ID",
+        "MCP_SECRET_ACCESS_KEY": "YOUR_AWS_SECRET_ACCESS_KEY",
+        "MCP_API_ENDPOINT": "https://4h8r7qhmpa.execute-api.us-east-1.amazonaws.com/",
+        "MCP_REGION": "us-east-1"
+      }
+    }
+  }
+}

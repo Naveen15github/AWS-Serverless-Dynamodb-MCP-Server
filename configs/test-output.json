@@ -1,0 +1,7 @@
+{
+  "statusCode": 400,
+  "headers": {
+    "Content-Type": "text/plain"
+  },
+  "body": "Missing required parameter: table_name"
+}
