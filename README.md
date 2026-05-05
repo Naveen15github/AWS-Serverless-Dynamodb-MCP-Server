@@ -12,7 +12,7 @@ The system exposes **10 fully functional DynamoDB tools** through the MCP protoc
 ---
 
 ## 🏗️ Architecture
-![Architecture Diagram]()
+![Architecture Diagram](https://github.com/Naveen15github/AWS-Serverless-Dynamodb-MCP-Server/blob/000c29909a3bd5a73efeb5260695a40b1bdf740b/Gemini_Generated_Image_r84cvar84cvar84c.png)
 
 ## ✅ Features
 
