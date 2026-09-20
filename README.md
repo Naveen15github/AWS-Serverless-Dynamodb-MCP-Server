@@ -365,7 +365,7 @@ Here are natural language prompts you can use once connected:
 
 ## 🧹 Teardown
 
-To remove all AWS resources created by this project:
+To remove all AWS resources created by this  project:
 
 ```bash
 # Linux/Mac
