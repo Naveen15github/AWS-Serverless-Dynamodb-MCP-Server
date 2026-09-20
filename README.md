@@ -126,7 +126,7 @@ After deployment, I configured the MCP server in Kiro IDE. The server connected 
 
 | Tool | Description |
 |------|-------------|
-| `dynamodb_put_item` | Add or replace a complete item |
+| `dynamodb_put_item` | Add or replace a  complete item |
 | `dynamodb_update_item` | Update specific attributes of an existing item |
 | `dynamodb_delete_item` | Delete an item by its primary key |
 
